@@ -1,0 +1,25 @@
+AsgMaxSize	2
+DeviceName	/dev/xvdcz
+EbsVolumeSize	22
+EbsVolumeType	gp2
+EcsAmiId	ami-04351e12
+EcsClusterName	ecs-sample-cluster
+EcsEndpoint
+EcsInstanceType	t2.micro
+IamRoleInstanceProfile	ecsInstanceRole
+IamSpotFleetRoleName
+KeyName	rhutto-devops
+SecurityGroupId
+SecurityIngressCidrIp	47.200.2.124/32
+SecurityIngressFromPort	80
+SecurityIngressToPort	80
+SpotAllocationStrategy	diversified
+SpotPrice	0.0
+SubnetCidr1	10.0.0.0/24
+SubnetCidr2	10.0.1.0/24
+SubnetCidr3
+SubnetIds	subnet-816330bd,subnet-17aa8072,subnet-76ef152c,subnet-5a7ec712,subnet-44935f68
+UseSpot	false
+VpcAvailabilityZones	us-east-1e,us-east-1b,us-east-1d,us-east-1c,us-east-1f,us-east-1a
+VpcCidr	10.0.0.0/16
+VpcId	vpc-f551ac8c
